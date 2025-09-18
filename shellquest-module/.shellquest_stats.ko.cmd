@@ -1,0 +1,1 @@
+savedcmd_shellquest_stats.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T /usr/src/kernels/6.16.3-200.fc42.x86_64/scripts/module.lds -o shellquest_stats.ko shellquest_stats.o shellquest_stats.mod.o .module-common.o
